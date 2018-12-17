@@ -1,6 +1,4 @@
 import {
-	SET_ITEMS,
-	GET_ITEMS,
 	GET_BOARD_ITEMS,
 	SET_BOARD_ITEMS,
 	GET_BOARD,
@@ -31,18 +29,6 @@ export default function reducer(state, action) {
 			return {
 				...state,
 				boardItems: action.payload
-			};
-
-		case SET_ITEMS:
-			return {
-				...state,
-				items: action.payload
-			};
-
-		case GET_ITEMS:
-			return {
-				...state,
-				items: action.payload
 			};
 
 		default:
