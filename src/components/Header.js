@@ -37,6 +37,7 @@ const Header = props => {
 			<Link to="/primary">Primary</Link>
 			<Link to="/secondary">Secondary</Link>
 			<Link to="/draft">Drafts</Link>
+			<Link to="/">Home</Link>
 		</Nav>
 	);
 };
